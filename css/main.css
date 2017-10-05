@@ -1,0 +1,235 @@
+/* General Page CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* Un-comment below to see helpful border boxes */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #5e507c;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Header CSS */
+.nav-header {
+  background-color: #a7d0cb;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.btn-group {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.btn {
+  background-color: #5e507c;
+  border: 3px solid #fff;
+  border-radius: 2px;
+  color: white;
+  font-size: small;
+  font-family: sans-serif;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #E59866;
+}
+
+/* End of Header CSS */
+
+.main-title {
+  margin-top: 75px;
+}
+
+.footer {
+  color: #5e507c;
+  text-align: center;
+  margin-top: 100%;
+}
+
+/* General Image CSS */
+img {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
+
+#adventure {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+/* End of Image CSS */
+
+/*Index Page */
+blockquote {
+  margin: auto;
+  padding: 2.5em 40px;
+  line-height: 1.45;
+  position: relative;
+  text-align: center;
+}
+
+blockquote cite {
+  color: #4b4b4b;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* About Page  */
+
+.about-col-1 {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.about-col-2 {
+  padding-bottom: 10px;
+  display: block;
+}
+
+/* Progress Bar */
+
+/* Container for skill bars */
+.skill-container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skill-progress {
+  padding-top: 15px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 360px;
+  color: white;
+}
+/* Individual skills */
+.html {
+  width: 90%;
+  background-color: #FAD7A0;
+}
+
+.css {
+  width: 30%;
+  background-color: #A3E4D7;
+}
+
+.js {
+  width: 50%;
+  background-color: #AF7AC5;
+}
+
+.ruby {
+  width: 70%;
+  background-color: #85C1E9;
+}
+/* End of progress bar */
+
+/* Contact Page Icons */
+
+.social-icons {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.social-icons a {
+  padding: 40px;
+  font-size: 60px;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+.social-icons a:hover {
+  background-color: #a7d0cb;
+}
+
+/* Brand Logos */
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-github {
+  background: #E59866;
+  color: white;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 992px) {
+  .blockquote {
+    width: 50%;
+    margin: auto;
+  }
+  .main-image {
+    width: 70%;
+    margin: auto;
+  }
+  .skill-container {
+    width: 50%;
+  }
+  .about-col-1, .about-col-2 {
+    width: 50%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .blockquote {
+    width: 75%;
+    margin: auto;
+  }
+  .main-image {
+    width: 80%;
+    margin: auto;
+  }
+  .skill-container {
+    width: 70%;
+  }
+  .about-col-1, .about-col-2{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blockquote {
+    width: 100%;
+    margin: auto;
+  }
+  .main-image {
+    width: 100%;
+    margin: auto;
+  }
+  .skill-container {
+    width: 100%;
+  }
+  body {
+    background-color: #a7d0cb;
+  }
+  .about-col-1, .about-col-2 {
+    width: 100%;
+    margin: auto;
+  }
+
+}
